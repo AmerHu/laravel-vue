@@ -1,0 +1,47 @@
+.dotted {
+    border: dotted 1px;
+}
+
+
+
+/* Custom Theme */
+
+.wrapper.theme-1-active .navbar.navbar-inverse {
+    background: #d6deee;
+}
+
+.wrapper.theme-1-active .fixed-sidebar-left .side-nav {
+    background: #435b85;
+}
+
+span.right-nav-text {
+    font-weight: bold;
+}
+
+.fixed-sidebar-left .side-nav > li > ul > li a {
+    padding: 7px 15px 7px 51px;
+    display: block;
+    color: #d6deee;
+}
+
+.fixed-sidebar-left .side-nav > li > ul > li a:hover, .fixed-sidebar-left .side-nav > li > ul > li a:focus, .fixed-sidebar-left .side-nav > li > ul > li a:active {
+    background: rgba(33, 33, 33, 0.05);
+    color: #d6deee;
+}
+
+.fixed-sidebar-left .side-nav > li > ul > li a:hover, .fixed-sidebar-left .side-nav > li > ul > li a:focus, .fixed-sidebar-left .side-nav > li > ul > li a:active {
+    background: rgba(33, 33, 33, 0.05);
+    color: #d6deee;
+}
+
+.wrapper.theme-1-active.pimary-color-green .fixed-sidebar-left .side-nav > li > a.active, .wrapper.theme-2-active.pimary-color-green .fixed-sidebar-left .side-nav > li > a.active, .wrapper.theme-3-active.pimary-color-green .fixed-sidebar-left .side-nav > li > a.active, .wrapper.theme-4-active.pimary-color-green .fixed-sidebar-left .side-nav > li > a.active, .wrapper.theme-5-active.pimary-color-green .fixed-sidebar-left .side-nav > li > a.active, .wrapper.theme-6-active.pimary-color-green .fixed-sidebar-left .side-nav > li > a.active {
+    color: #91afdf;
+}
+
+.bg-green, .bg-success {
+    background: #346cb3 !important;
+}
+
+.bg-yellow, .bg-warning {
+    background: #3b8798 !important;
+}
